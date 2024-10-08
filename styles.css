@@ -386,6 +386,19 @@ section.footer {
     }
 }
 
+.qr-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.qr-code h3 {
+    color: rgb(147, 146, 146);
+    margin-bottom: 20px;
+}
+
 /**************** MEDIA QUERIES *******************/
 
 /* Extra small devices (phones, 600px and down) */
